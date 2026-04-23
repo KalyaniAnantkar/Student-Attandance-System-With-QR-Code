@@ -1,0 +1,239 @@
+  /* .sdashboard {
+  padding: 30px;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  min-height: 100vh;
+}
+
+.dashboard h1 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.form-card {
+  background: white;
+  padding: 20px;
+  width: 350px;
+  margin: 0 auto 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.form-card input,
+.form-card textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.form-card button {
+  background: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+.lecture-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.lecture-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.lecture-id {
+  font-size: 12px;
+  color: gray;
+} 
+
+ 
+
+
+  */
+
+  /* .dashboard {
+  padding: 30px;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  min-height: 100vh;
+}
+
+.dashboard h1 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.form-card {
+  background: white;
+  padding: 20px;
+  width: 350px;
+  margin: 0 auto 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.form-card input,
+.form-card textarea,
+.form-card select {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.form-card button {
+  background: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.lecture-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.lecture-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+
+/* .btn-group {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.btn-group button {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-group button:first-child {
+  background: #3498db;
+  color: white;
+}
+
+.btn-group button:last-child {
+  background: #e74c3c;
+  color: white;
+}
+
+.lecture-id {
+  font-size: 12px;
+  color: gray;
+}  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Background */
+.dashboard {
+  min-height: 100vh;
+  padding: 20px;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+}
+
+/* Form Card */
+.form-card {
+  width: 350px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.form-card h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.form-card input,
+.form-card textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.form-card button {
+  margin-top: 10px;
+  padding: 10px;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Lecture Grid */
+.lecture-grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+/* Lecture Card */
+.lecture-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.lecture-card h4 {
+  margin-bottom: 5px;
+}
+
+.lecture-card p {
+  margin: 3px 0;
+}
+
+/* Buttons */
+.btn-group {
+  margin-top: 10px;
+}
+
+.qr-btn {
+  background: #4da6ff;
+  border: none;
+  padding: 8px 12px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}

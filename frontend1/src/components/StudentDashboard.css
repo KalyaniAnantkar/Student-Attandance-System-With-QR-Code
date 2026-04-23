@@ -1,0 +1,267 @@
+/* MAIN DASHBOARD
+.sdashboard {
+  padding: 30px;
+  min-height: 100vh;
+  background: linear-gradient(to right, #667eea, #764ba2);
+}
+
+
+ .sdashboard h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+ .slecture-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+
+.slecture-card {
+  background: white;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.slecture-card:hover {
+  transform: translateY(-5px);
+}
+
+
+.slecture-card h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+
+.slecture-card p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.watch-btn {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.scan-btn {
+  margin-top: 12px;
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.scan-btn:hover {
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+}  
+
+
+ */
+
+
+
+ /* .student-dashboard {
+  padding: 20px;
+  min-height: 100vh;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+}
+
+.lecture-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.lecture-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.lecture-card img {
+  margin: 10px 0;
+}
+
+.lecture-card button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.attendance-box {
+  margin-top: 20px;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+} */
+
+
+
+
+
+
+
+/* .dashboard {
+  padding: 20px;
+  font-family: Arial;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  color: #222;
+}
+
+.lecture-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.lecture-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+.lecture-card button {
+  width: 100%;
+  padding: 10px;
+  background: #4cafef;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.scanner-box {
+  margin-top: 10px;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  background: white;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+} */
+
+
+
+
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard {
+  padding: 20px;
+  background: linear-gradient(to right, #74ebd5, #9face6);
+  min-height: 100vh;
+}
+
+.title {
+  text-align: center;
+  color: #222;
+}
+
+.section-title {
+  margin-top: 30px;
+  color: #333;
+}
+
+/* QR SECTION */
+.qr-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.qr-card {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  width: 180px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.qr-card img {
+  margin: 10px 0;
+}
+
+.scan-text {
+  color: #666;
+  font-size: 14px;
+}
+
+/* TABLE */
+.table-container {
+  margin-top: 20px;
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #4facfe;
+  color: white;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+/* STATUS COLORS */
+.present {
+  color: green;
+  font-weight: bold;
+}
+
+.absent {
+  color: red;
+  font-weight: bold;
+}
