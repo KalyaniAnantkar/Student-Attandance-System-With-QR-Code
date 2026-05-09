@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.css": "/Student-Attandance-System-With-QR-Code/static/css/main.527fb747.css",
+    "main.js": "/Student-Attandance-System-With-QR-Code/static/js/main.90739b2c.js",
+    "index.html": "/Student-Attandance-System-With-QR-Code/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.527fb747.css",
+    "static/js/main.90739b2c.js"
+  ]
+}
